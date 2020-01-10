@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+	
+	// \n 1 satir bosluk birakmaya yarar
+	printf("**********Kisiye Ait Bilgiler*********");
+	printf("\n\n");
+	printf("Merhaba Dunya\n");
+	printf("Merhaba Izmir\n");
+	printf("Ad: Suleyman\n");
+	printf("Soyad: DINCSOY\n");
+	printf("Meslek: Bilgisayarci");
+	
+		return 0;
+}
