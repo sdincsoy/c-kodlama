@@ -1,0 +1,38 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main() {
+	/* string
+	int
+	double
+	float
+	char
+	long
+	short
+	...
+	*/
+	
+	
+	/*char kitapadi[20]="Mufettis";
+	char kitapyazari[10]="Gogol";
+	
+	printf("%s\n",kitapadi);
+	printf("%s",kitapyazari);
+	*/
+	
+	/*char kitaptur[10]="Tiyatro Kitabi";
+	printf("Kitapturu: %s",kitaptur);
+	*/
+	
+	char kitapad[20]="Avucunuzdaki Kelebek";
+	char yazar[30]="Ahmet Serif Izgoren";
+	char sayfa[3]="888";
+	char basimyil[4]="2001";
+	
+	printf("***********Kitap tanitim***********\n\n\n");
+	printf("Kitap Adi: %s  -  Kitabin YAzari %s\n",kitapad,yazar);	
+	printf("Sayfa Sayisi: %s\n",sayfa);
+	printf("Basim Yili: %s", basimyil);
+	return 0;
+}
