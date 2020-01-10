@@ -1,0 +1,47 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+	
+	/* float denemeler */
+	
+	/* deneme1
+	float sayi;
+	sayi=5;
+	printf("%f",sayi);
+	
+	*/
+	
+	/*
+	float sayi1,sayi2,bolme;
+	sayi1=7;
+	sayi2=4;
+	
+	bolme=sayi1/sayi2;
+	
+	printf("7 yi 4 e bolersek Sonuc : %f",bolme);
+	*/
+	
+	/*
+	float sayi1,sayi2,toplam;
+	sayi1=7.4;
+	sayi2=4,7;
+	
+	toplam=sayi1+sayi2;
+	
+	printf("Toplam : %f",toplam);
+	*/
+	
+	
+	float sinavnot1,sinavnot2,sinavnot3,ortalama;
+	sinavnot1=45;
+	sinavnot2=47;
+	sinavnot3=59;
+	ortalama=(sinavnot1+sinavnot2+sinavnot3)/3;
+	
+	printf("Ortalama Not: %f",ortalama);
+	
+	
+	
+	return 0;
+}
