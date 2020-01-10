@@ -1,0 +1,68 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+	
+	/*
+	int sayi= 10;
+	printf("%d",sayi);	
+	*/
+	
+	/*
+	int sayi1,sayi2,toplam;
+	sayi1=10;
+	sayi2=2;
+	toplam = sayi1+sayi2;
+	printf("10 ve 2 nin toplami : %d",toplam);
+	*/
+	
+	
+	/*
+	int sayi1,sayi2,toplam,carp,fark,bol;
+
+	sayi1=50;
+	sayi2=10;
+	toplam=sayi1+sayi2;
+	carp=sayi1*sayi2;
+	fark=sayi1-sayi2;
+	bol=sayi1/sayi2;
+	
+	printf("10 ve 20 sayisinin toplami : %d\n",toplam);
+	printf("10 ve 20 sayisinin carpimi : %d\n",carp);
+	printf("10 ve 20 sayisinin farki : %d\n",fark);
+	printf("10 ve 20 sayisinin bolmesi : %d",bol);
+	*/
+	
+	/* ondaliklari almaz
+	int s1,s2,islem;
+	s1=10;
+	s2=3;
+	islem=s1/s2;
+	printf("10 ve 3 sayisinin bolme sonucu :%d",islem);
+	*/
+	
+	/*
+	bagaj hakki 15 kg
+	elde tasima hakki 8 kg
+	kilo asimi olur ise kilo basina 5 TL odenecek
+	*/
+	
+	/*int bagaj=15;
+	int elbagaj=8;*/
+ int bagaj,el,bagajfark,elfark,ucret;
+
+ bagaj=20;
+ el=10;
+ bagajfark=bagaj-18;
+ elfark=el-8;
+ ucret=(bagajfark+elfark)*5;
+
+ printf("Bagajinizdaki Kg: %d\n",bagaj);
+ printf("Elinizdeki Kg: %d\n",el);
+ printf("Bagaj Fazlaniz: %d\n",bagajfark);
+ printf("El Bagaj Fazlaniz: %d\n",elfark);
+
+ printf("Odemeniz Gereken Toplam Bagaj Farki Fiyati: %d TL",ucret);
+	
+	return 0;
+}
