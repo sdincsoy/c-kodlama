@@ -1,0 +1,82 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+	
+	//mod alma %
+	//ve && 
+	//veya ||
+	//Esit midir? ==
+	//Esit degil midir !=
+	
+//ornek1;
+/*
+	int sayi;
+	
+	sayi=8;
+	
+	if(sayi%2==0)
+	{
+		printf("Sayi ciftdir");
+	}
+	else
+	{
+		printf("Sayfi tek dir");
+	}
+	
+*/	
+
+/* int sayi;
+printf("\n Bu program Klavyeden girilen sayinin 3 ve 5 e tam bolunmesini kontrol eder");
+printf("\n Lutfen bir sayi giriniz : ");
+scanf("%d",&sayi);
+
+if(sayi%3==0 && sayi%5==0)
+{
+	printf("Girdiginiz sayi 3 ve 5 e tam bolunur");
+}
+else
+{
+	printf("Girdiginiz sayi 3 ve 5 tam bolunmez");
+}
+*/
+/* 
+int sayi;
+printf("\n Bu program Klavyeden girilen sayinin 3 ve 5 e tam bolunmesini kontrol eder");
+printf("\n Lutfen bir sayi giriniz : ");
+scanf("%d",&sayi);
+
+if(sayi%3==0 || sayi%5==0)
+{
+	printf("Girdiginiz sayi 3 veya 5 e tam bolunur");
+}
+else
+{
+	printf("Girdiginiz sayi 3 veya 5 tam bolunmez");
+}
+
+*/
+
+// klavyeden girilen dereceye gore suyun durumunu yazdiran program
+
+float derece;
+printf("\n Bu program girdiginiz Su sicakligina gore Suyun durumunu belirtir.");
+printf("\n lutfen suyun sicakliginiz giriniz: ");
+scanf("%f",&derece);
+
+if(derece<=0)
+{
+printf("\n Bu su donmus be kardes");
+}
+if(derece>0 && derece<100);	
+{
+printf("\n Su akiskan");	
+}
+if(derece>=100)
+{
+printf("\n Su buharlasmis");
+}
+
+
+	return 0;
+}
