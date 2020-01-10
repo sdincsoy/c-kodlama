@@ -1,0 +1,97 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main() {
+
+/*
+int uzunkenar,kisakenar,alan,cevre;
+
+printf("Bu program Kenarlari girilen Dikdortgenin Alanini Hesaplar \n");
+
+printf("Lutfen UzunKenari Giriniz (cm): ");
+scanf("%d",&uzunkenar);
+
+printf("Lutfen KisaKenari Giriniz (cm): ");
+scanf("%d",&kisakenar);
+
+alan=uzunkenar*kisakenar;
+cevre=2*(kisakenar+uzunkenar);
+
+printf("\n Girdiginiz 4 Kenarin Alani : %d",alan);
+printf("\n Girdiginiz 4 Kenarin Cevresi : %d",cevre);
+
+*/
+
+
+/*
+int not1,not2,not3,ortalama;
+
+printf("\n Ortalama sinav Notu Hesaplama");
+
+printf("\n Lutfen 1.sinav notunuzu giriniz : ");
+scanf("%d",&not1);
+
+printf("Lutfen 2.sinav notunuzu giriniz : ");
+scanf("%d",&not2);
+
+printf("Lutfen 3.sinav notunuzu giriniz : ");
+scanf("%d",&not3);
+
+ortalama=(not1+not2+not3)/3;
+
+printf("Ortalama Notunuz = %d", ortalama);
+*/
+
+/* bir sinemada ucretlendirme su sekildedir;
+misir=2TL
+kola=2TL
+Su=1TL
+bilet=8TL
+
+Program ile hangisinden kac adet alindi ise bunun hesaplanmasini yapacak kodu yaziniz
+*/
+
+
+int misiradet,kolaadet,suaadet,biletadet,geneltoplam,toplammisirfiyati,toplamkolafiyati,toplamsufiyati,toplambiletfiyati;
+
+
+int misirfiyati=2;
+int kolafiyati=2;
+int sufiyati=1;
+int biletfiyati=8;
+
+printf("\n ***** Fiyat Listesi *****\n");
+printf("Misir Birim Fiyati = 2TL\n");
+printf("Kola Birim Fiyati = 2TL\n");
+printf("Su Birim Fiyati = 1TL\n");
+printf("Bilet (1 Kisi)) Fiyati = 8TL\n");
+
+printf("Lutfen Kac Adet Misir aldiginizi Giriniz:");
+scanf("%d",&misiradet);
+
+printf("Lutfen Kac Adet Kola aldiginizi Giriniz:");
+scanf("%d",&kolaadet);
+
+printf("Lutfen Kac Adet Su aldiginizi Giriniz:");
+scanf("%d",&suaadet);
+
+printf("Lutfen Kac Adet Bilet aldiginizi Giriniz:");
+scanf("%d",&biletadet);
+
+toplammisirfiyati=misiradet*misirfiyati;
+toplamkolafiyati=kolaadet*kolafiyati;
+toplamsufiyati=suaadet*sufiyati;
+toplambiletfiyati=biletadet*biletfiyati;
+
+geneltoplam=toplammisirfiyati+toplamkolafiyati+toplamsufiyati+toplambiletfiyati;
+
+printf("\n Toplam Misir Fiyati				: %d", toplammisirfiyati);
+printf("\n Toplam Kola Fiyati				: %d", toplamkolafiyati);
+printf("\n Toplam Su Fiyati					: %d", toplamsufiyati);
+printf("\n Toplam Bilet Fiyati				: %d", toplambiletfiyati);
+printf("\n Odemeniz Gereken Toplam Ocret	: %d", geneltoplam);
+
+
+	return 0;
+}
