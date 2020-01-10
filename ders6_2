@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+	
+	float uzunkenar,kisakenar,alan,cevre;
+	
+	uzunkenar=10.5;
+	kisakenar=17,7;
+	alan=uzunkenar*kisakenar;
+	cevre=2*(uzunkenar+kisakenar);
+	
+	printf("Dikdortgenin Alani = %f",alan);
+	printf("\n");
+	printf("Dikdortgenin Cevresi = %f",cevre);
+	
+	
+	
+	
+	
+	
+	return 0;
+}
