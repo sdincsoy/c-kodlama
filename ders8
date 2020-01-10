@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+	
+	
+	// karar yapilari
+	
+	//ögrenci ders gecme durumu not ortalamasi 50 den buyukse gecti, kucukse sinifta kaldi.
+	
+	float not1,not2,ortalama;
+	
+	printf("\n Bu program not ortalamanizi hesaplar");
+	printf("\n Lutfen birinci sinav notunuzu giriniz:");
+	scanf("%f",&not1);
+	
+	printf("\n Lutfen ikinci sinav notunuzu giriniz:");
+	scanf("%f",&not2);
+	
+	
+	ortalama=(not1+not2)/2;
+	printf("\n Not Ortralamaniz : %f",ortalama);
+	
+	if(ortalama>=50)
+	{
+		
+		printf("\n Gectin sinifini aferin");
+	}
+	else
+	{
+		printf("\n Sinifta Kaldin Seneye Calis da gel");
+	}
+	
+	return 0;
+}
