@@ -1,0 +1,41 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+	
+	/*
+	char kitapad[30];
+	printf("Kitap Adini Giriniz : ");
+	scanf("%s",kitapad);
+	printf("Girmis Oldugunuz Kitabin Adi :%s",kitapad);
+	*/
+	/*scanf de bosluktan sonrasini almaz. hata vermez ancak bosluga kadar olani gosterir*/	
+	
+	
+	char Kitapad[30],Yazar[30],Tur[15],Sayfa[4],Basimyili[4],Basimyeri[15];
+ 
+ printf("Kitap Adi: ");
+ scanf("%s",Kitapad);
+ 
+ printf("Yazari: ");
+ scanf("%s",Yazar);
+ 
+ printf("Turu: ");
+ scanf("%s",Tur);
+ 
+ printf("Sayfa: ");
+ scanf("%s",Sayfa);
+ 
+ printf("Basim Yili: ");
+ scanf("%s",Basimyili);
+ 
+ printf("Basim Yeri: ");
+ scanf("%s",Basimyeri);
+ 
+
+ 
+ printf("\n Kitap Adi: %s\n Yazari: %s\n Turu: %s\n Sayfa: %s\n Basim Yili: %s\n Basim Yeri: %s\n ",Kitapad,Yazar,Tur,Sayfa,Basimyili,Basimyeri);
+	
+	
+	return 0;
+}
