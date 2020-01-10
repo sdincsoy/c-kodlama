@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+	
+	// 3 sinav ve 1 proje notu ortalamasi (ondalikli sonuc ile)
+	
+	float not1,not2,not3,projenot,ortalama;
+	not1=56;
+	not2=80;
+	not3=39;
+	projenot=77;
+	
+	ortalama = (not1+not2+not3+projenot)/4;
+	
+	printf("\n Ortalama Not = %f", ortalama);
+	
+	return 0;
+}
