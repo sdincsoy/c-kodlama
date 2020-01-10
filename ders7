@@ -1,0 +1,39 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+
+
+	/* deneme 1
+	float sayi1,sayi2,toplam;
+	printf("\n ilk sayiyi giriniz");
+	scanf("%f",&sayi1);
+	
+	printf("\n ikinci sayiyi giriniz");
+	scanf("%f",&sayi2);
+	
+	toplam=sayi1+sayi2;
+	
+	printf("Toplam = %f",toplam);
+	*/
+	
+	/* Maas zam hesaplama;
+	soru; maas ve zam orani girilen kisinin zam li maasini hesaplama */
+	
+	float girmaas,girzam,gercekmaas;
+	
+	printf("\n Lutfen maasinizi giriniz: ");
+	scanf("%f",&girmaas);
+	
+	printf("\n Lutfen zam oranini giriniz (yuzdelik olarak) : ");
+	scanf("%f",&girzam);
+	
+	gercekmaas=girmaas*(girzam/100)+girmaas;
+	
+	printf("\n Maasiniz : %f",gercekmaas);
+	
+	
+	
+	
+	return 0;
+}
